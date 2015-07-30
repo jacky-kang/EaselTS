@@ -1,11 +1,8 @@
 language: node_js
-
 node_js:
   - '0.12'
-  
 before_install:
   - npm install -g typescript
-  
 script:
   - tsc --out examples/scripts/example.js examples/scripts/example.ts
   - tsc --out examples/scripts/example0.js examples/scripts/example0.ts
