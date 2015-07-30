@@ -4,13 +4,13 @@ node_js:
 before_install:
   - npm install -g typescript
 script:
-  - tsc --out examples/scripts/example.js examples/scripts/example.ts
-  - tsc --out examples/scripts/example0.js examples/scripts/example0.ts
-  - tsc --out examples/scripts/example1.js examples/scripts/example1.ts
-  - tsc --out examples/scripts/example2.js examples/scripts/example2.ts
-  - tsc --out examples/scripts/example3.js examples/scripts/example3.ts
-  - tsc --out examples/scripts/example4.js examples/scripts/example4.ts
-  - tsc --out examples/scripts/example5.js examples/scripts/example5.ts
-  - tsc --out examples/scripts/example6.js examples/scripts/example6.ts
-  - tsc --out examples/scripts/example7.js examples/scripts/example7.ts
-  - tsc --out examples/scripts/example8.js examples/scripts/example8.ts
+  - tsc examples/scripts/example.ts
+  - tsc examples/scripts/example0.ts
+  - tsc examples/scripts/example1.ts
+  - tsc examples/scripts/example2.ts
+  - tsc examples/scripts/example3.ts
+  - tsc examples/scripts/example4.ts
+  - tsc examples/scripts/example5.ts
+  - tsc examples/scripts/example6.ts
+  - tsc examples/scripts/example7.ts
+  - tsc examples/scripts/example8.ts
